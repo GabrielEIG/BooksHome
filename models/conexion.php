@@ -1,6 +1,6 @@
 <?php
 
-$conexion = new mysqli("localhost", "root", "gabriel123321.", "db_libreria");
+$conexion = new mysqli("servidor", "nombre de usuario", "contasena", "nombre de base de datos");
 $conexion->set_charset("utf8");
 
 ?>
